@@ -16,7 +16,8 @@ for i in range(0, qtdValores, 1):
 
 while novamente == "s":
     posicao = int(input("Digite o numero que queira saber a posição: "))
-
+    pos = -1
+    
     for i in range(0, qtdValores, 1):
         if numeros[i] == posicao:
             pos = i
