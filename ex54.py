@@ -3,14 +3,13 @@
 numeros = []
 novo = []
 
-for i in range(0, 20, 1):
+for i in range(0, 5, 1):
     x = int(input("Digite um número: "))
     numeros.append(x)
 
 multi = int(input("Digite por quanto você quer multiplicar esses números: "))
 
-for i in range(0, 20, 1):
-   y = numeros[i] * multi
-   novo.append(y)
+for i in range(0, 5, 1):
+   novo.append(numeros[i] * multi)
 
-print(f"Seu novo array ficou assim: {novo}")
+print(f"Seu array era {numeros} e seu novo array é: {novo}")
