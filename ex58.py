@@ -5,7 +5,7 @@ arrayIdade = []
 arraySexo = []
 soma = 0
 
-for i in range (0, 5, 1):
+for i in range (0, 100, 1):
     nome = input("Digite seu nome: ")
     arrayNome.append(nome)
 
@@ -21,10 +21,10 @@ for i in range (0, 5, 1):
         sexo = input("Digite novamente seu sexo (m/f): ")
     arraySexo.append(sexo)
 
-for i in range (0, 5, 1):
+for i in range (0, 100, 1):
     if arrayIdade[i] > 18:
         print(f"Nome: {arrayNome[i]}")
         print(f"Idade: {arrayIdade[i]}")
         print(f"Idade: {arraySexo[i]}")
         soma += 1
-print(f"O total de pessoas listadas foi: {soma}")
+print(f"Existem {soma} maiores de 18 anos.")
